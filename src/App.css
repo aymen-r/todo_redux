@@ -1,0 +1,66 @@
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+body {
+  background: #4d244e;
+  font-family: sans-serif;
+  border-top: 5px solid #aa8e8d;
+}
+h1 {
+  color: #aa8e8d;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+}
+.tasks {
+  width: 300px;
+  height: 405px;
+  position: absolute;
+  top: 20%;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+} */
+/* gdim */
+.completed {
+  /* text-decoration: line-through; */
+  background-color: #e0ffe0;
+  border: lightgreen solid 2px;
+  border-radius: 5px;
+  color: black;
+}
+.task {
+  font-size: 30px;
+}
+
+.App {
+  padding-top: 30px;
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.add {
+  display: flex;
+}
+
+.container {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-filter {
+  width: 20%;
+}
